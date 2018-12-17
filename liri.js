@@ -105,9 +105,9 @@ function showConcert(band) {
 
     function showMovie(movie) {
 
-        // http://www.omdbapi.com/?i=tt3896198&apikey=ff202796
+        http://www.omdbapi.com/?i=tt3896198&apikey=ff202796
 
-        //  var nodmovieName = "";
+        var showmovieName = "";
 
 
     }
