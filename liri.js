@@ -107,7 +107,7 @@ function showConcert(band) {
 
         // http://www.omdbapi.com/?i=tt3896198&apikey=ff202796
 
-       //  var nodmovieName = "";
+        //  var nodmovieName = "";
 
 
     }
@@ -115,36 +115,9 @@ function showConcert(band) {
     function showRandom() {
 
     }
-
-    main()
-
-
-    // NPM package request needed for OMBD and Bands in Town but not Spotify: 
-
-    // var request = require('request');
-    // request('http://www.google.com', function (error, response, body) {
-    //     console.log('error:', error); // Print the error if one occurred
-    //     console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
-    //     console.log('body:', body); // Print the HTML for the Google homepage.
-    // });
-
-    // node liri.js spotify-this-song '<song name here>' and show the artist(s) and song's name, a preview link of the song from Spotify and the album that the song is from.
-
-    // 1. Need variable for entering the song name to be sent to Spotify.
-
-    // var songName = "";
-
-    // 2. Store the variables in an array
-
-    // var nodeArgs = process.argv;
-
-    // 3. Need variables for receiving back the artist(s) and song's name, link of the song from Spotify, and album name that the song is from.
-
-    // var artist = request.data.artist;
-    // var songsName = "";
-    // var songUrl = "";
-    // var album = "";
-
-
-    // log the data to an output file called log.txt and append each command vs. overwrite.
 }
+
+main();
+
+
+   
